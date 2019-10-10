@@ -40,3 +40,12 @@ echo $(( 7 * $i )) # expect: 7*2+3=17
 # memorizzare l'output di un comando in una variabile
 pwd=$(pwd)
 echo "La cartella di lavoro è $pwd"
+
+
+# operatori incremento e decremento
+i=4
+(( j = ++i )) # expect: 5 5
+echo "$j $i"
+i=4
+(( j = i++ )) # expect: 4 5
+echo "$j $i"
