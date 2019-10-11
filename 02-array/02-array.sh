@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 
 
 # definizione array e inserimento valori
